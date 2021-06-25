@@ -1,0 +1,6 @@
+framework module JLPodLibrary {
+  umbrella header "JLPodLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - JLPodLibrary (0.1.0)
+
+DEPENDENCIES:
+  - JLPodLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  JLPodLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JLPodLibrary: 7f0460a7f294477d58eeabd2f34dc4215235576e
+
+PODFILE CHECKSUM: 5e30107ed13b087268edfaa4f087051d67dc202e
+
+COCOAPODS: 1.10.1
