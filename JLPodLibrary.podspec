@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   Testing Private Podspec
                        DESC
 
-  s.homepage         = 'https://github.com/guojianlin/JLPodLibrary'
+  s.homepage         = 'https://github.com/Guojianlin/JLPodLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'guojianlin' => 'gjleee@163.com' }

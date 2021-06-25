@@ -7,79 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A03C0972685CD9B00C70AC6 /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A03C0962685CD9B00C70AC6 /* Tool.swift */; };
 		0F5BD8E88D55894A22537B8625A30DC5 /* Pods-JLPodLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9EC931A7D2769FCFE684912E038B2E /* Pods-JLPodLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EEADC88288372C8726EC51B152CAA0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		270BE90EAF79BCB15C70789EC80C2B04 /* Pods-JLPodLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C74F291DD4334FDAA6F30D49B731D5A /* Pods-JLPodLibrary_Tests-dummy.m */; };
+		30A29B0793011A34C9A209438D3046DB /* JLPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 708CE5F0B986843D77C699A2542167D4 /* JLPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A7569ABEB1EBAD91EB0DF48300F5B93 /* Pods-JLPodLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A2B3142EA37893FFB027B02FF792EB7 /* Pods-JLPodLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		804080E1F7031DBFB8460B71803958DC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2943552CF8D1629EBAF92D5DC0DC424 /* ReplaceMe.swift */; };
-		AC5C8C2AE8F2FD8B9B253BFFC957B77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6B14C180AD60A0859336FE53BDB20218 /* JLPodLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E1401F8640532607F546A1E6426FB5 /* JLPodLibrary-dummy.m */; };
+		956033A5BE264029DEF9F96C67E2F8B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9C4012F65EE0F2D0E0A4AC537E5DC0DF /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9038EBF7525B576AD890B54CA83D55F9 /* Tool.swift */; };
 		B3E2A92C2D023A2B5EA158647BD8DC47 /* Pods-JLPodLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0256F3EF4FD7D7DCFA11F3C4CA68A012 /* Pods-JLPodLibrary_Example-dummy.m */; };
 		B639C105D0B7191ACACD81D6DDACA2E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DBEAC28C26336F885703F70FDF4DEF8C /* JLPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 376A513C31479311A3B56440AB033D66 /* JLPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF251144AE80022696D0772A592CFD58 /* JLPodLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E97205BE11A82E65AB9E7721D94086E0 /* JLPodLibrary-dummy.m */; };
+		BFFFD6D496D90D29E25F4A094BB7ADE2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39CCDC3008344D8036CFB78282FFDC6 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		798561FCAE85C9CDF28E2D0DDFDA55D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AD32D0DBA2FDB69A6D8B139FDBCDFF23;
-			remoteInfo = JLPodLibrary;
-		};
-		CC5090E39843C9FCF98D9D2C14419D68 /* PBXContainerItemProxy */ = {
+		0CF31ADEB55D471308F229E9E8D8E25D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 96EDF40455E2D703A5B3227E995AF01A;
 			remoteInfo = "Pods-JLPodLibrary_Example";
 		};
+		CFFE1A68F855144CE4352B2CBAAA285B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD32D0DBA2FDB69A6D8B139FDBCDFF23;
+			remoteInfo = JLPodLibrary;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0256F3EF4FD7D7DCFA11F3C4CA68A012 /* Pods-JLPodLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLPodLibrary_Example-dummy.m"; sourceTree = "<group>"; };
-		0A03C0962685CD9B00C70AC6 /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		1115B7BCF3A7B7BF8C498902F30D0530 /* Pods-JLPodLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPodLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
-		11A47F5A883091BF77406B2F2AF00219 /* JLPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A47F5A883091BF77406B2F2AF00219 /* JLPodLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLPodLibrary.framework; path = JLPodLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D198728278B56BC8DD39248B31083B /* Pods-JLPodLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLPodLibrary_Tests.modulemap"; sourceTree = "<group>"; };
+		2844740DED19E3A1310CC34F7DC4528A /* JLPodLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLPodLibrary.modulemap; sourceTree = "<group>"; };
 		2A2B3142EA37893FFB027B02FF792EB7 /* Pods-JLPodLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLPodLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2C74F291DD4334FDAA6F30D49B731D5A /* Pods-JLPodLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLPodLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
-		376A513C31479311A3B56440AB033D66 /* JLPodLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPodLibrary-umbrella.h"; sourceTree = "<group>"; };
+		2FB238E66CF04637EE862633BA4A8B8D /* JLPodLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPodLibrary-prefix.pch"; sourceTree = "<group>"; };
+		316CEF8DBED00DA53AEC69F153794D29 /* JLPodLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLPodLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		32ECAB23A4CD3D3DACC66333CC1C8A4C /* JLPodLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLPodLibrary-Info.plist"; sourceTree = "<group>"; };
 		43491D737A23CEAD622BB8834E9FA16F /* Pods-JLPodLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JLPodLibrary_Example.modulemap"; sourceTree = "<group>"; };
-		4B519275234CE28FA8F33BEC2C84EC3F /* Pods_JLPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLPodLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5360F1A0BE42BFEC98B841D161E2D76D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		562982FE833BEFC777C822D9A2305D3C /* JLPodLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLPodLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		65482F7DBCA07A21B54B2646F0D45877 /* JLPodLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPodLibrary-prefix.pch"; sourceTree = "<group>"; };
-		65F1E3B05854AD422D12D4C1142F7C4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4B519275234CE28FA8F33BEC2C84EC3F /* Pods_JLPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLPodLibrary_Tests.framework; path = "Pods-JLPodLibrary_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F412A2EF1512EE974334B1CE1049DA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		67F7BA6804DCFF90C2637EB3CA8B5637 /* Pods-JLPodLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLPodLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BC09B4EBD50538B9C690B9EF1A2ADC4 /* Pods-JLPodLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPodLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6C3626877B906C4C6602F9B63DAB0EBF /* JLPodLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLPodLibrary.release.xcconfig; sourceTree = "<group>"; };
+		708CE5F0B986843D77C699A2542167D4 /* JLPodLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLPodLibrary-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AC80E1241B1A85917DA1AD61431C181 /* JLPodLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLPodLibrary.release.xcconfig; sourceTree = "<group>"; };
 		7D7A623D8A49577EE96FDAA543E0A863 /* Pods-JLPodLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPodLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
+		82E1401F8640532607F546A1E6426FB5 /* JLPodLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLPodLibrary-dummy.m"; sourceTree = "<group>"; };
 		8A9EC931A7D2769FCFE684912E038B2E /* Pods-JLPodLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLPodLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9038EBF7525B576AD890B54CA83D55F9 /* Tool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tool.swift; path = JLPodLibrary/Classes/Tool.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A28B9736C9D474338525BF458C6C65D6 /* Pods-JLPodLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPodLibrary_Example-Info.plist"; sourceTree = "<group>"; };
 		A59B87FB3A40F7E4EE4ADDC4A096DD6B /* Pods-JLPodLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPodLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B8C97C88F86448414EE79DF2888AC054 /* JLPodLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JLPodLibrary.modulemap; sourceTree = "<group>"; };
+		C39CCDC3008344D8036CFB78282FFDC6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JLPodLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CE902AFEA07A4D0D3FE901C807110795 /* Pods-JLPodLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLPodLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CE922A7480DA67DCD555F64F6D4CB037 /* Pods-JLPodLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPodLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D2943552CF8D1629EBAF92D5DC0DC424 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JLPodLibrary/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D36A7FAC79C9BF2DA086F4019F0839C5 /* Pods-JLPodLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLPodLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DDB2531A153F96E79A0A7007D56F8594 /* Pods_JLPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLPodLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB2531A153F96E79A0A7007D56F8594 /* Pods_JLPodLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLPodLibrary_Example.framework; path = "Pods-JLPodLibrary_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22433F3B139BC39588C818DC5234D59 /* Pods-JLPodLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLPodLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E85EE9FAFB93728F9CE54445F8EB790A /* JLPodLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JLPodLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E97205BE11A82E65AB9E7721D94086E0 /* JLPodLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLPodLibrary-dummy.m"; sourceTree = "<group>"; };
 		EB1F10A929D2E515F9BD9A3D973C219B /* Pods-JLPodLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLPodLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F9637EBAB8A05DC3F0D09595256AA6ED /* JLPodLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JLPodLibrary-Info.plist"; sourceTree = "<group>"; };
+		EE600A8F66D54E9EA190B738E1355C94 /* JLPodLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JLPodLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FEED5A36B5B89509A6DC3D990661A34A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C313A8860EEF45A43B7206906730A6AF /* Frameworks */ = {
+		7BB518CE98BDE0FE40F0464E60915B2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC5C8C2AE8F2FD8B9B253BFFC957B77E /* Foundation.framework in Frameworks */,
+				956033A5BE264029DEF9F96C67E2F8B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,18 +102,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		074A09A7627A126C8FE6C81025CE604B /* JLPodLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				D2943552CF8D1629EBAF92D5DC0DC424 /* ReplaceMe.swift */,
-				42F30062D426CE878C50E7D5030F7715 /* Pod */,
-				51E1A308AF2BD030E0709F2D139279DF /* Support Files */,
-				0A03C0962685CD9B00C70AC6 /* Tool.swift */,
-			);
-			name = JLPodLibrary;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		2D6DB2D4510BDABA95CA68A23ECB4D42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,31 +112,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		42F30062D426CE878C50E7D5030F7715 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E85EE9FAFB93728F9CE54445F8EB790A /* JLPodLibrary.podspec */,
-				65F1E3B05854AD422D12D4C1142F7C4B /* LICENSE */,
-				5360F1A0BE42BFEC98B841D161E2D76D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		51E1A308AF2BD030E0709F2D139279DF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8C97C88F86448414EE79DF2888AC054 /* JLPodLibrary.modulemap */,
-				E97205BE11A82E65AB9E7721D94086E0 /* JLPodLibrary-dummy.m */,
-				F9637EBAB8A05DC3F0D09595256AA6ED /* JLPodLibrary-Info.plist */,
-				65482F7DBCA07A21B54B2646F0D45877 /* JLPodLibrary-prefix.pch */,
-				376A513C31479311A3B56440AB033D66 /* JLPodLibrary-umbrella.h */,
-				562982FE833BEFC777C822D9A2305D3C /* JLPodLibrary.debug.xcconfig */,
-				6C3626877B906C4C6602F9B63DAB0EBF /* JLPodLibrary.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JLPodLibrary";
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,12 +120,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		75438DADD68091F5ACF728158EDC5B35 /* Development Pods */ = {
+		69861D27D49C14C251779A1A0887626F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				074A09A7627A126C8FE6C81025CE604B /* JLPodLibrary */,
+				2844740DED19E3A1310CC34F7DC4528A /* JLPodLibrary.modulemap */,
+				82E1401F8640532607F546A1E6426FB5 /* JLPodLibrary-dummy.m */,
+				32ECAB23A4CD3D3DACC66333CC1C8A4C /* JLPodLibrary-Info.plist */,
+				2FB238E66CF04637EE862633BA4A8B8D /* JLPodLibrary-prefix.pch */,
+				708CE5F0B986843D77C699A2542167D4 /* JLPodLibrary-umbrella.h */,
+				316CEF8DBED00DA53AEC69F153794D29 /* JLPodLibrary.debug.xcconfig */,
+				7AC80E1241B1A85917DA1AD61431C181 /* JLPodLibrary.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLPodLibrary";
+			sourceTree = "<group>";
+		};
+		82D0F75E9BC9F78306275A4B652EF010 /* JLPodLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				C39CCDC3008344D8036CFB78282FFDC6 /* ReplaceMe.swift */,
+				9038EBF7525B576AD890B54CA83D55F9 /* Tool.swift */,
+				EA6673444B9EFD90DE66208988A12598 /* Pod */,
+				69861D27D49C14C251779A1A0887626F /* Support Files */,
+			);
+			name = JLPodLibrary;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A8914024FDB8FD588282C6C12C204ED7 /* Targets Support Files */ = {
@@ -195,7 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				75438DADD68091F5ACF728158EDC5B35 /* Development Pods */,
+				DB5C554CAA1D623FB61D5D5293D5BF69 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2D6DB2D4510BDABA95CA68A23ECB4D42 /* Products */,
 				A8914024FDB8FD588282C6C12C204ED7 /* Targets Support Files */,
@@ -226,22 +208,40 @@
 			path = "Target Support Files/Pods-JLPodLibrary_Tests";
 			sourceTree = "<group>";
 		};
+		DB5C554CAA1D623FB61D5D5293D5BF69 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D0F75E9BC9F78306275A4B652EF010 /* JLPodLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA6673444B9EFD90DE66208988A12598 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EE600A8F66D54E9EA190B738E1355C94 /* JLPodLibrary.podspec */,
+				4F412A2EF1512EE974334B1CE1049DA8 /* LICENSE */,
+				FEED5A36B5B89509A6DC3D990661A34A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		05724DCAD0AD2E7675D17DC32CD7A029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A29B0793011A34C9A209438D3046DB /* JLPodLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		830256D8FE3F9D56F983D12618E65A0F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A7569ABEB1EBAD91EB0DF48300F5B93 /* Pods-JLPodLibrary_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7CE181D8E84DC593507FDD1AB489B32 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DBEAC28C26336F885703F70FDF4DEF8C /* JLPodLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +268,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B77060EA69079A64E730D4B0A302B7B2 /* PBXTargetDependency */,
+				3E63AFE69F82EA5F53CC36D7AC502D98 /* PBXTargetDependency */,
 			);
 			name = "Pods-JLPodLibrary_Tests";
 			productName = "Pods-JLPodLibrary_Tests";
@@ -287,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				184B1CA97E332346D148ED6F5ECE9528 /* PBXTargetDependency */,
+				97805B8D177CA41607477855CB5F09DE /* PBXTargetDependency */,
 			);
 			name = "Pods-JLPodLibrary_Example";
 			productName = "Pods-JLPodLibrary_Example";
@@ -296,12 +296,12 @@
 		};
 		AD32D0DBA2FDB69A6D8B139FDBCDFF23 /* JLPodLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A99CFD32D376516CD5B232C717C3250 /* Build configuration list for PBXNativeTarget "JLPodLibrary" */;
+			buildConfigurationList = A1C9B5005850900195C8C88387C7EBE0 /* Build configuration list for PBXNativeTarget "JLPodLibrary" */;
 			buildPhases = (
-				A7CE181D8E84DC593507FDD1AB489B32 /* Headers */,
-				55FBD16EC165C668FAB5B06169724C26 /* Sources */,
-				C313A8860EEF45A43B7206906730A6AF /* Frameworks */,
-				C58F59A71B631169BD4EA951B9816545 /* Resources */,
+				05724DCAD0AD2E7675D17DC32CD7A029 /* Headers */,
+				E24057FE5912EF4779FAA280480C5223 /* Sources */,
+				7BB518CE98BDE0FE40F0464E60915B2F /* Frameworks */,
+				150D55B0EF5484CAEBC31F453AFDD059 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -342,6 +342,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		150D55B0EF5484CAEBC31F453AFDD059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		552283DB7BB89795D73EF8323F547E1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,13 +357,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B0C3C66269116009986282BDEBDA4729 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C58F59A71B631169BD4EA951B9816545 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,65 +382,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55FBD16EC165C668FAB5B06169724C26 /* Sources */ = {
+		E24057FE5912EF4779FAA280480C5223 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A03C0972685CD9B00C70AC6 /* Tool.swift in Sources */,
-				DF251144AE80022696D0772A592CFD58 /* JLPodLibrary-dummy.m in Sources */,
-				804080E1F7031DBFB8460B71803958DC /* ReplaceMe.swift in Sources */,
+				6B14C180AD60A0859336FE53BDB20218 /* JLPodLibrary-dummy.m in Sources */,
+				BFFFD6D496D90D29E25F4A094BB7ADE2 /* ReplaceMe.swift in Sources */,
+				9C4012F65EE0F2D0E0A4AC537E5DC0DF /* Tool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		184B1CA97E332346D148ED6F5ECE9528 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JLPodLibrary;
-			target = AD32D0DBA2FDB69A6D8B139FDBCDFF23 /* JLPodLibrary */;
-			targetProxy = 798561FCAE85C9CDF28E2D0DDFDA55D5 /* PBXContainerItemProxy */;
-		};
-		B77060EA69079A64E730D4B0A302B7B2 /* PBXTargetDependency */ = {
+		3E63AFE69F82EA5F53CC36D7AC502D98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JLPodLibrary_Example";
 			target = 96EDF40455E2D703A5B3227E995AF01A /* Pods-JLPodLibrary_Example */;
-			targetProxy = CC5090E39843C9FCF98D9D2C14419D68 /* PBXContainerItemProxy */;
+			targetProxy = 0CF31ADEB55D471308F229E9E8D8E25D /* PBXContainerItemProxy */;
+		};
+		97805B8D177CA41607477855CB5F09DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLPodLibrary;
+			target = AD32D0DBA2FDB69A6D8B139FDBCDFF23 /* JLPodLibrary */;
+			targetProxy = CFFE1A68F855144CE4352B2CBAAA285B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C8E9CD92606761380B51452818AF923 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C3626877B906C4C6602F9B63DAB0EBF /* JLPodLibrary.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JLPodLibrary/JLPodLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JLPodLibrary/JLPodLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JLPodLibrary/JLPodLibrary.modulemap";
-				PRODUCT_MODULE_NAME = JLPodLibrary;
-				PRODUCT_NAME = JLPodLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -507,9 +476,9 @@
 			};
 			name = Debug;
 		};
-		62697DC769DC02D7998743887EDF7BCD /* Debug */ = {
+		2F20A76176F2DB8CF2BF642028C7DA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 562982FE833BEFC777C822D9A2305D3C /* JLPodLibrary.debug.xcconfig */;
+			baseConfigurationReference = 316CEF8DBED00DA53AEC69F153794D29 /* JLPodLibrary.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -530,12 +499,43 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3206287C0316C3A208252E074E54D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC80E1241B1A85917DA1AD61431C181 /* JLPodLibrary.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLPodLibrary/JLPodLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLPodLibrary/JLPodLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLPodLibrary/JLPodLibrary.modulemap";
+				PRODUCT_MODULE_NAME = JLPodLibrary;
+				PRODUCT_NAME = JLPodLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		7767E5B69B6DA8B062D7D8346C453128 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -658,7 +658,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -758,11 +759,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A99CFD32D376516CD5B232C717C3250 /* Build configuration list for PBXNativeTarget "JLPodLibrary" */ = {
+		A1C9B5005850900195C8C88387C7EBE0 /* Build configuration list for PBXNativeTarget "JLPodLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62697DC769DC02D7998743887EDF7BCD /* Debug */,
-				1C8E9CD92606761380B51452818AF923 /* Release */,
+				2F20A76176F2DB8CF2BF642028C7DA63 /* Debug */,
+				3206287C0316C3A208252E074E54D946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,9 +1,9 @@
 {
   "name": "JLPodLibrary",
   "version": "0.1.0",
-  "summary": "A short description of JLPodLibrary.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/guojianlin/JLPodLibrary",
+  "summary": "Just Testing.",
+  "description": "Testing Private Podspec",
+  "homepage": "https://github.com/Guojianlin/JLPodLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "guojianlin": "gjleee@163.com"
   },
   "source": {
-    "git": "https://github.com/guojianlin/JLPodLibrary.git",
+    "git": "https://github.com/Guojianlin/JLPodTest.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JLPodLibrary/Classes/**/*"
+  "source_files": "JLPodLibrary/Classes/**/*",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
 }
