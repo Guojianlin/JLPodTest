@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import JLPodLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        Tool.log()
     }
 
     override func didReceiveMemoryWarning() {

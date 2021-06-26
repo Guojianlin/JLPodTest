@@ -7,8 +7,8 @@
 
 import Foundation
 
-public class Tool {
-    public static func log() {
+class Tool {
+    static func log() {
         print("this is my private library ---- JLPL")
     }
 }
